@@ -1,0 +1,86 @@
+:root{
+    --green:#d3d3d3;
+   
+    --space:100px
+}
+*{
+    text-transform: capitalize
+}
+body{
+    background-color: rgb(7, 72, 252)
+}
+.container{
+    padding-left: var(--space)
+;padding-right: var(--space)
+}
+.navbar{
+    background: rgb(7, 72, 252)!important;padding: 20px 80px;align-items: baseline!important
+}
+.navbar-brand{
+    color: #d3d3d3;font-weight: 900;font-size: 30px;text-transform: uppercase;font-size: 35px
+}
+.navbar-nav{
+    color: #d3d3d3;gap: 10px
+}
+.navbar-nav a{
+    color: #d3d3d3!important;font-weight: 600;font-size: 18px
+}
+.dropdown{
+    display: flex
+}
+.btn{
+    color: #d3d3d3!important;font-weight: 600
+}
+.btn-secondary{
+    border: none;background: transparent!important
+}
+
+.skew{width: 100%;height: 400px;background: var(--green)
+}
+.nav-link{
+    text-align: center;width: 100%
+}
+.navbar-toggler{
+    border: none;outline:none
+}
+.navbar-toggler:focus{
+
+   box-shadow: none
+}
+
+.nav-2-links{
+    width: fit-content;display: flex
+}
+.flex{
+    position: relative;top: 150px;width: 59%
+}
+.flex>h1{
+    font-size: 43px
+}
+.flex>h2{
+    font-size: 22px;margin-top: 30px
+}
+h1{
+    color: #ffffffea
+}
+span{
+   font-size: 45px; text-decoration: underline  rgb(28, 149, 165);text-underline-offset: 8px;color: #ffffff;font-weight: 800
+}
+.button{
+    width: fit-content;padding: 7px 18px;background: rgb(28, 149, 165) ;border-radius: 40px;font-size: 20px;margin-top: 30px;font-weight: 600
+}
+h2{
+    color: #ffffffea;
+
+}
+
+
+.screen{
+    width: 43vh;height: 78vh;background: #ffffff;border-radius: 50px;position: relative;top: 30px;left: 7rem;z-index: 1;background-image: url(./goku.jpg);background-size: cover;background-position: center;
+}
+.screen2{
+    width: 43vh;height: 78vh;background: #922222;border-radius: 50px;position: absolute;top: 80px;left: -48px;z-index: 0;background-image: url(./go.jpg);background-size: cover;background-position: center;background-origin: border-box
+}
+.mycontainer{
+    display: flex;padding: 0px 95px;gap: 100px
+}
